@@ -1,0 +1,31 @@
+# === General ===
+.DS_Store
+*.log
+.env
+
+# === Java / Spring Boot Backend ===
+/backend/target/
+/backend/.idea/
+/backend/.vscode/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/.factorypath
+/backend/.sts4-cache
+
+# Sensitive config
+/backend/src/main/resources/application.properties
+/backend/src/main/resources/application.yml
+
+# === React Frontend ===
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/.vscode/
+/frontend/.idea/
+
+# === IDEs and Build Systems ===
+*.iml
+*.ipr
+*.iws
+*.swp
