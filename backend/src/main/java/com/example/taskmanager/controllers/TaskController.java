@@ -29,6 +29,7 @@ public class TaskController {
         task.setTitle(updatedTask.getTitle());
         task.setDescription(updatedTask.getDescription());
         task.setDone(updatedTask.isDone());
+        task.setAttachmentUrl(updatedTask.getAttachmentUrl());
         return taskRepository.save(task);
     }
 

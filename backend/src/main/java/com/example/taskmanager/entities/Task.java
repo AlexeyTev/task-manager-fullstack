@@ -15,6 +15,16 @@ public class Task {
     private String description;
     private boolean done = false;
     private String userEmail;
+    private String attachmentUrl;
+
+    public String getAttachmentUrl() {
+        return attachmentUrl;
+    }
+
+    public void setAttachmentUrl(String attachmentUrl) {
+        this.attachmentUrl = attachmentUrl;
+    }
+
 
     public Long getId() {
         return id;
@@ -50,6 +60,8 @@ public class Task {
     public String getUserEmail() {
         return userEmail;
     }
+
+
 
     public void setUserEmail(String userEmail) {
         this.userEmail = userEmail;
